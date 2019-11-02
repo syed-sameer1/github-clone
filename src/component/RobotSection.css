@@ -1,0 +1,36 @@
+.robot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 100px;
+}
+.robotImg > img {
+  height: 681px;
+  width: auto;
+}
+.robotDetail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.robotDetail > ul {
+  list-style-type: none;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.robotDetail > ul > li {
+  padding: 24px;
+  border: transparent;
+}
+.robotDetail > ul > li > p {
+  font-size: 15px;
+  margin: 0;
+}
+.robotDetail > ul > li:hover {
+  transition: 0.3s;
+  border: 1px solid rgb(192, 190, 190);
+  box-shadow: -2px -2px 15px rgb(233, 230, 230);
+}

@@ -1,0 +1,120 @@
+.count {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 168px;
+}
+
+.countBalls {
+    display: flex;
+    width: 928px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.countBalls>.repo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding: 24px;
+    height: 225px;
+    width: 225px;
+    background: #f66a0a;
+    border-radius: 100%;
+    margin: 16px;
+}
+
+.countBalls>.repo>h2 {
+    font-size: 40px;
+}
+
+.countBalls>.repo>p {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.25;
+}
+
+.countBalls>.developers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding: 24px;
+    height: 175px;
+    width: 175px;
+    background: #0366d6;
+    border-radius: 100%;
+    margin: 16px;
+}
+
+.countBalls>.developers>h2 {
+    font-size: 40px;
+}
+
+.countBalls>.developers>p {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.25;
+}
+
+.countBalls>.organiz {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding: 24px;
+    height: 140px;
+    width: 140px;
+    background: #6f42c1;
+    border-radius: 100%;
+    margin: 16px;
+}
+
+.countBalls>.organiz>h2 {
+    font-size: 32px;
+}
+
+.countBalls>.organiz>p {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.25;
+}
+
+.countDetails {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.countDetails>ul {
+    list-style-type: none;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.countDetails>ul>li {
+    padding: 24px;
+    border: transparent;
+}
+
+.countDetails>ul>li>p {
+    font-size: 15px;
+    margin: 0;
+}
+
+.countDetails>ul>li:hover {
+    transition: 0.3s;
+    border: 1px solid rgb(192, 190, 190);
+    box-shadow: -2px -2px 15px rgb(233, 230, 230);
+}

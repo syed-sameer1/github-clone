@@ -1,0 +1,36 @@
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.innerIntro {
+  background: url("https://github.githubassets.com/images/modules/site/iso-ui.jpg")
+    center left no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 96px 40px;
+  color: white;
+  margin: 0 40px;
+}
+
+.innerIntro > p {
+  margin: 8px 150px 32px 150px;
+  color: rgb(182, 179, 179);
+  text-align: center;
+  /* width: 600px; */
+}
+
+.innerIntro > button {
+  background: transparent;
+  border: 1px solid #1b4d88;
+  color: white;
+  font-weight: 600;
+  padding: 16px 24px;
+  border-radius: 4px;
+  font-size: 14px;
+}
