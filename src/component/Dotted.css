@@ -1,0 +1,36 @@
+.dotted {
+  background: url("https://github.githubassets.com/images/modules/site/patterns/dots-large.svg");
+  background-position: center 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.innerDotted {
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 40px;
+  margin: 0 82px;
+}
+
+.innerDotted > h2 {
+  margin: 0;
+}
+
+.innerDotted > p {
+  color: rgb(114, 112, 112);
+}
+
+.innerDotted > button {
+  background-color: #1074e7;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 16px 24px;
+  margin-bottom: 15px;
+}

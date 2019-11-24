@@ -1,0 +1,106 @@
+.main {
+  background-color: #2b3137;
+  background-image: url("https://github.githubassets.com/images/modules/site/heroes/simple-codelines.svg");
+  /* height: 631px; */
+  padding: 64px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.webStart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 50px;
+  margin: 0 110px;
+}
+
+.built {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* width: 566px; */
+  /* height: 228px; */
+  padding: 0 50px;
+  /* margin-left: 50px; */
+}
+
+.built > h1 {
+  color: white;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 64px;
+}
+
+.built > p {
+  color: #a1a4a7;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.built > p > a {
+  color: white;
+}
+
+form {
+  background-color: #fafbfc;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  height: 503px;
+  width: 427px;
+  padding: 0 24px;
+  border-radius: 3px;
+}
+
+form > input {
+  background: transparent;
+  height: 46px;
+  width: 381px;
+  padding: 10px;
+  border: 1px solid #d1d5da;
+  border-radius: 3px;
+}
+
+form > label {
+  color: #32373b;
+  margin: 20px 0 5px 0;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+form > p {
+  color: #303031;
+  font-size: 12px;
+  margin: 5px 0 16px 0;
+}
+
+form > input[type="submit"] {
+  background-color: #2ebc4f;
+  color: #fafbfc;
+  outline: none;
+  font-weight: 600;
+  margin: 16px 0;
+  padding: 20px;
+  height: 66px;
+}
+
+.formSubmit {
+  background-color: #2ebc4f;
+  color: #fafbfc;
+  outline: none;
+  font-weight: 600;
+  margin: 16px 0;
+  padding: 20px;
+  height: 66px;
+  display: none;
+  border: none;
+  border-radius: 3px;
+}
+
+form > .para2 {
+  color: #7f7f88;
+  margin-top: 16px;
+}

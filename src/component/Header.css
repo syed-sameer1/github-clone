@@ -1,0 +1,81 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #24292e;
+  height: 72px;
+  padding: 8px 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+nav > ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+}
+
+nav > ul > li {
+  color: white;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+nav > ul > li:hover {
+  color: #bac9bd;
+  transition: 0.3s;
+}
+
+header > div {
+  margin-right: 76px;
+}
+
+header > div > input {
+  background-color: #404448;
+  border: none;
+  border-radius: 2px;
+  height: 36px;
+  width: 213px;
+  padding: 8px;
+  outline: none;
+}
+
+header > div > input::placeholder {
+  color: rgb(155, 155, 155);
+}
+
+header > div > input:focus {
+  background-color: white;
+}
+
+.signIn {
+  background: transparent;
+  border: transparent;
+  color: white;
+  height: 34px;
+  width: 73px;
+  padding: 4px 8px;
+}
+
+.signUp {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  border-radius: 3px;
+  height: 34px;
+  width: 73px;
+  padding: 4px 8px;
+}
+
+.signIn:hover,
+.signUp:hover {
+  color: #bac9bd;
+  transition: 0.3s;
+}

@@ -1,0 +1,82 @@
+.last {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #24292e;
+    color: white;
+    padding: 80px 0;
+    margin-top: 40px;
+}
+
+.last>h2 {
+    margin: 0 168px;
+    text-align: center;
+    padding: 16px;
+}
+
+.lastForm {
+    display: flex;
+    margin: 80px 0 40px 0;
+}
+
+.lastForm>input {
+    border: transparent;
+    border-radius: 4px;
+    padding: 10px;
+    width: 258px;
+    margin: 0 16px;
+    font-size: 16px;
+}
+
+.lastForm>input[type="submit"] {
+    border: transparent;
+    border-radius: 4px;
+    padding: 16px 24px;
+    width: 258px;
+    margin: 0 16px;
+    background: #28a745;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.last>p {
+    font-size: 12px;
+    color: #6a737d;
+    text-align: center;
+}
+
+.last>p>a {
+    color: white;
+}
+
+footer {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    padding: 0 80px;
+}
+
+footer>.footerList {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 0;
+}
+
+footer>.footerList>ul {
+    list-style-type: none;
+    font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace !important;
+    font-size: 14px;
+    color: gray;
+}
+
+footer>.footerList>ul>li {
+    margin: 17px 20px;
+}
+
+footer>.footerList>.gitIcon {
+    width: 300px;
+}
