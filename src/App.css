@@ -6,7 +6,7 @@
 
 @media (max-width: 1011px) {
   header {
-    justify-content: center;
+    justify-content: flex-end;
     height: 60px;
   }
   header > nav,
@@ -80,15 +80,149 @@
   }
 }
 
-.App-link {
-  color: #61dafb;
+@media (max-width: 769px) {
+  .main {
+    /* height: 809px; */
+    padding: 64px 0;
+  }
+  .webStart {
+    flex-direction: column;
+  }
+  .built {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .built > h1 {
+    font-size: 55px;
+  }
+  .built > p {
+    text-align: center;
+  }
+  .innerDotted > p {
+    text-align: center;
+  }
+  .innerDotted > button {
+    width: 100%;
+  }
+  .innerOrganiz {
+    padding: 50px 16px;
+  }
+  .innerOrganiz > p {
+    font-size: 18px;
+  }
+  .innerOrganiz > ul > li > img {
+    height: 20px;
+  }
+  .innerTeam > p {
+    font-size: 40px;
+  }
+  .innerHost {
+    width: 100%;
+    margin: 0 20px;
+  }
+  .verifiedImg > img {
+    width: 392px;
+    height: 243px;
+    margin: 0 20px;
+  }
+  .count {
+    flex-direction: column;
+    margin: 0;
+  }
+  .countBalls {
+    width: 500px;
+  }
+  .last > h2 {
+    margin: 0 20px;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 543px) {
+  /* .main {
+    height: 440px;
+    padding: 40px 0;
+  } */
+  form {
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
+  .formSubmit {
+    display: block;
+  }
+  .built > h1 {
+    text-align: center;
+  }
+  .built > p {
+    margin-bottom: 15px;
+  }
+  .innerOrganiz > ul > li > img {
+    padding: 0 10px;
+  }
+  .built {
+    padding: 0 10px;
+  }
+  .webStart {
+    padding: 0;
+  }
+  .innerDotted {
+    margin: 0;
+  }
+  .innerOrganiz > ul {
+    padding: 0;
+  }
+  .innerOrganiz > ul > li > img {
+    padding: 0 8px;
+    margin: 10px;
+  }
+  .verifiedImg > img {
+    width: 270px;
+    height: 180px;
+    margin: 0 20px;
+  }
+  .robotImg > img {
+    width: 300px;
+    height: 350px;
+  }
+  .countBalls {
+    width: 300px;
+  }
+  .countBalls > .repo {
+    height: 160px;
+    width: 160px;
+    margin: 5px;
+  }
+  .countBalls > .repo > h2 {
+    font-size: 25px;
+  }
+  .countBalls > .developers {
+    height: 120px;
+    width: 120px;
+    margin: 5px;
+  }
+  .countBalls > .developers > h2 {
+    font-size: 25px;
+  }
+  .countBalls > .organiz {
+    height: 90px;
+    width: 90px;
+    margin: 5px;
+  }
+  .countBalls > .organiz > h2 {
+    font-size: 20px;
+  }
+  .countBalls > .organiz > p {
+    font-size: 10px;
+  }
+  .lastForm > input[type="password"],
+  .lastForm > input[type="submit"] {
+    width: 90%;
+  }
+  footer > .footerList > ul {
+    padding: 0;
+  }
+  footer > .footerList > ul > li {
+    margin: 17px 10px;
   }
 }
+
+/* media */
